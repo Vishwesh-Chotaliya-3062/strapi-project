@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/strapiusers",
+      "handler": "strapiusers.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/strapiusers/count",
+      "handler": "strapiusers.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/strapiusers/:id",
+      "handler": "strapiusers.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/strapiusers",
+      "handler": "strapiusers.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/strapiusers/:id",
+      "handler": "strapiusers.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/strapiusers/:id",
+      "handler": "strapiusers.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
